@@ -1,4 +1,6 @@
-# m-blog
+# Moon blogger
+### A nuxt.js/content blog template
+
 
 ## Build Setup
 
