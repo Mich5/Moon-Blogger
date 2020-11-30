@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    @apply duration-200;
+}
+/* html {
+    @apply text-lg;
+} */
+body {
+    @apply bg-gray-100
+}
+::selection {
+    @apply text-white bg-purple-900;
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 0.3s;
+}
+
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
+
+h1, h2, h3, h4 {
+    @apply font-bold text-purple-500;
+}
+
+h1 {
+    @apply text-4xl;
+}
+
+h2 {
+    @apply text-3xl;
+}
+h3 {
+    @apply text-2xl;
+}
+h2 {
+    @apply text-xl;
+}
+
+blockquote {
+    @apply bg-purple-100 p-2 border-purple-600 border-l-4 italic text-lg;
+}
+
+a {
+    @apply underline font-bold text-purple-500;
+}
+
+pre{
+    @apply bg-purple-200 p-1 rounded-md;
+}
+
+button {
+    @apply px-4 py-2 rounded-xl bg-purple-100 font-bold text-purple-900;
+}
+
+ul {
+  @apply pl-4 list-disc;
+}
+
+ol {
+    @apply pl-4 list-decimal;
+}
