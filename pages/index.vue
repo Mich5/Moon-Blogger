@@ -8,7 +8,6 @@
 export default {
   async asyncData({ $content, params }) {
     const posts = await $content("posts", params.slug).fetch();
-    console.log(posts);
     return { posts };
   },
 };

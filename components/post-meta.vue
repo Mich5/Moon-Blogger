@@ -10,7 +10,7 @@
 export default {
     props:{
         date: "",
-        tags: []
+        tags: null
     }
 };
 </script>

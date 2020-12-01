@@ -9,7 +9,6 @@
 export default {
   async asyncData({ $content, params }) {
     const posts = await $content('posts').where({ tags: { $contains: [params.tag] }}).fetch();
-    console.log(posts);
     return { posts, tag:params.tag };
   },
 };
