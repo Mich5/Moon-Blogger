@@ -1,6 +1,8 @@
 # Moon blogger
 ### A nuxt.js/content blog template
 
+#### [Live Preview](https://m-blog.vercel.app/)
+
 
 ## Build Setup
 
