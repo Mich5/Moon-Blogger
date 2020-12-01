@@ -18,5 +18,9 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
+Todo:
+- Dark mode
+- Detailed Documentation
+- Real articles on sample blog posts
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
