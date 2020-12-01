@@ -38,7 +38,7 @@
         <a href="https://micho.me/" target="_blank" rel="noopener">
           Micho Ngoma
         </a> <span class="mx-2 text-purple-900">•</span>
-        <a href="https://micho.me/" target="_blank" rel="noopener">
+        <a href="https://github.com/Mich5/Moon-Blogger" target="_blank" rel="noopener">
           Source on github
         </a>
 
