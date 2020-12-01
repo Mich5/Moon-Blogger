@@ -17,6 +17,9 @@
 
 <script>
 export default {
+  head: {
+    title: "Search",
+  },
   data() {
     return {
       searchQuery: "",

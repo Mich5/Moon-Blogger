@@ -8,6 +8,11 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: this.post.title,
+    };
+  },
   async asyncData({ $content, params, error }) {
     const param = params.post || "index";
     const post = await $content("posts", param)
